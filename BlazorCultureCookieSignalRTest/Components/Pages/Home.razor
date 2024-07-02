@@ -1,0 +1,15 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<strong>Current UI culture (used for localization):</strong> @Thread.CurrentThread.CurrentUICulture.Name
+<br />
+<strong>Current thread culture (used for date and number formatting):</strong> @Thread.CurrentThread.CurrentCulture.Name
+<br />
+<strong>Datetimepattern:</strong> @Thread.CurrentThread.CurrentCulture.DateTimeFormat.ShortDatePattern
+<br />
+<p>@DateTime.Now</p>
